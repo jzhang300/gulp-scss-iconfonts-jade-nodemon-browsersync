@@ -1,3 +1,8 @@
+# About this project
+
+This is a base template that has Gulp working with Browsersync, Nodemon, Sass, Icon Fonts, and JS compiling.
+
+
 # Developing in this project
 
 1. Make sure you have installed Node v0.12.*
