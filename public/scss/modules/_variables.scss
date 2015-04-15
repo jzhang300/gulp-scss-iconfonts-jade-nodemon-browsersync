@@ -1,0 +1,17 @@
+// This file lists global variables
+
+// Font Stack
+$base-font-stack : "HelveticaNeue", "Helvetica", "Arial", sans-serif !default;
+
+// Font Sizes
+$base-font-size: 16;
+
+$font-sizes: (
+	h1: pow(1.25, 3) * $base-font-size,
+	h2: pow(1.25, 2) * $base-font-size,
+	h3: 1.25 * $base-font-size,
+	h4: $base-font-size,
+	h5: pow(1.25, -1) * $base-font-size,
+	h6: pow(1.25, -2) * $base-font-size,
+	p: $base-font-size
+);

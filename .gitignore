@@ -1,0 +1,8 @@
+node_modules
+logs/app.lo
+.idea/
+logs/
+**/.DS_Store
+*/.DS_Store
+.DS_Store
+.DS_Store?

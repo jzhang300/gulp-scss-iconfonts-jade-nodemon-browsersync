@@ -1,0 +1,35 @@
+/*
+Base Layer
+*/
+
+html {
+	// @include font-size($base-font-size);
+	font-size: #{$base-font-size}px;
+	font-family: $base-font-stack;
+}
+
+body {
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0px;
+	font-weight: normal;
+}
+
+@each $header, $size in $font-sizes {
+	#{$header}, .#{$header} {
+		font-size: #{($size/$base-font-size)}rem;
+	}
+}
+
+.img-container img {
+	height: 100%;
+	width: 100%;
+}
+
+// icon fonts
+.icon {
+	vertical-align: middle;
+	display: inline-block;
+}

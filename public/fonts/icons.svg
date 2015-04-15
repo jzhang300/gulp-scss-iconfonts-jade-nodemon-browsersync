@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?> 
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="icons" horiz-adv-x="32">
+    <font-face font-family="icons"
+      units-per-em="32" ascent="32"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="back"
+      unicode="&#xE001;"
+      horiz-adv-x="32" d=" M16 30C8.269 30 2 23.731 2 16S8.269 2 16 2S30 8.269 30 16S23.731 30 16 30zM16 4C9.383 4 4 9.383 4 16S9.383 28 16 28S28 22.617 28 16S22.617 4 16 4z M16.707 21.293L15.293 22.707L8.586 16L15.293 9.293L16.707 10.707L12.414 15L24 15L24 17L12.414 17z" />
+  </font>
+</defs>
+</svg>

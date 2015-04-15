@@ -1,0 +1,17 @@
+// for adding clearfixes to an element
+@mixin clearfix() {
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
+
+// Cross Browser Supporting any property
+@mixin vendorize($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
